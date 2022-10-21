@@ -13,11 +13,38 @@ body{
     border-radius: 50%;
     position: absolute;
 }
-.centralDot{
+.centralDot {
     background-color: red;
     height: 30px;
     width: 30px;
     position: absolute;
     left: 185px;
     top: 185px;
+}
+.hoursHand{
+    position: absolute;
+    background-color: red;
+    width: 8px;
+    height: 120px;
+    transform-origin: bottom center;
+    left: 196px;
+    bottom: 196px;
+}
+.minutesHand{
+    position: absolute;
+    background-color: lawngreen;
+    width: 4px;
+    height: 195px;
+    bottom: 198px;
+    left: 198px;
+    transform-origin: 0 100%;
+}
+.secondsHand{
+    position: absolute;
+    background-color: white;
+    width: 2px;
+    height: 195px;
+    left: 199px;
+    bottom: 199px;
+    transform-origin: 0 100%;
 }
