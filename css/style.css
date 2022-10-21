@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    height: 400px;
+    width: 400px;
+    border: 10px white solid;
+    border-radius: 50%;
+    position: absolute;
+}
+.centralDot{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 185px;
+    top: 185px;
+}
